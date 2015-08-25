@@ -5,7 +5,7 @@
 一直都想在github上制作自己的控件，从最简单的textview动画入手，制作了仿支付宝数字显示的控件。
 
 # How to use it
-第一次上传代码至jcenter，生成的链接 有些粗糙
+第一次上传代码至jcenter，生成的链接有些粗糙……<br />  
 compile 'com.buaa.ct:app:1.0'
 
 # Demo
@@ -19,7 +19,7 @@ compile 'com.buaa.ct:app:1.0'
             android:textColor="#000000"
             android:textSize="20sp" />
 ### Activity
-        number1 = (RiseNumberTextView) findViewById(R.id.number1);<br />  
+        number1 = (RiseNumberTextView) findViewById(R.id.number1);
         number1.withNumber(1112.3f).start();
 
 ###app
